@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: go-api
-        image: go-api:local
-        imagePullPolicy: Never
+        image: 900653245995.dkr.ecr.ap-south-1.amazonaws.com/cicd/test:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
